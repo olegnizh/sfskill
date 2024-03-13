@@ -8,7 +8,6 @@ namespace ConsoleAppNlog
     {
 
         // create a static logger field
-        // Singelton
         private static Logger logger = LogManager.GetCurrentClassLogger();
        
 
