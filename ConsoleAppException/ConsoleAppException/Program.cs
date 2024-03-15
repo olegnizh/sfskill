@@ -10,14 +10,14 @@ namespace Example
             {
                 SomeMethod();
             }
-            catch (Exception e)
-            {
-                Console.WriteLine("Exception caught");
-            }
             catch (ArgumentException ex)
             {
                 Console.WriteLine("ArgumentException caught");
             }
+            catch (Exception e)
+            {
+                Console.WriteLine("Exception caught");
+            }            
             finally
             {
                 Console.WriteLine("Finally block");
